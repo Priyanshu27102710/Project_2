@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CryptoM5 Theme Live Demo Blocks</title>
+    <link rel="shortcut icon" href="/Image/bitcoin_transparent_background.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.css" integrity="sha512-x9WwyMYBnlXMNQ6kQ/Lyzu1NqIhLQKL5Oq6xByfXuRj7s9CskyCbLv/1IjqzJmXwFXWr0ov6jBV7Qbc0hh9nHg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .logo{
+
+            margin-top:  -780px;
+            padding-left: 120px;
+        }
+
+        .logo a{
+
+            font-size: 30px;
+            font-weight:bolder;
+            text-decoration: none;
+            color: rgb(247, 249, 252);
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .nav{
+
+            display: flex;
+            padding-left: 840px;  
+             margin-top:  -40px;          
+        }
+
+        .nav a{
+
+            text-decoration: none;
+            padding: 14px 20px;
+            font-size: 15px;
+            font-weight:600;
+            text-decoration: none;
+            color: rgb(247, 249, 252);
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+
+        .btn{
+
+            border-color: #8364e2 ;
+            background-color: #8364e2;
+            color: #ffffff;
+            width: 140px;
+            height: 40px;
+            border-radius: 20px;
+            font-size: 15px;
+            font-weight: 800;
+             margin-top:  -40px;   
+
+        }
+
+        .btn:hover{
+
+            background-color: #a38af0 ;
+            transition: all 0.3s ease-in-out;
+            
+        }
+        .fir{
+
+            padding-top: 60px;
+            padding-left: 120px;
+            font-size: 18px;
+            font-weight:bolder;
+            color:#6b44dd;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+           
+        }
+
+        .pera{
+
+            padding-top: 10px;
+            padding-left: 110px;
+            font-size: 55px;
+            font-weight:bolder;
+            color:#f9f8fc;
+            font-family:Arial, Helvetica, sans-serif;
+        }
+
+        .sec{
+
+             padding-top: 30px;
+            padding-left: 110px;
+            font-size: 20px;
+            font-weight:500;
+            color:#ccccd6;
+            font-family:Arial, Helvetica, sans-serif;
+           
+        }
+
+       
+        .exp{
+
+            
+            border-color: #8364e2 ;
+            background-color: #8364e2;
+            color: #ffffff;
+            width: 130px;
+            height: 45px;
+            border-radius: 20px;
+            font-size: 15px;
+            font-weight: 800;
+            margin-left: 110px;
+            margin-top: 40px;
+            
+        }
+
+         .exp:hover{
+
+            background-color: #a38af0 ;
+            transition: all 0.3s ease-in-out;
+            
+        }
+        .n1{
+
+             padding-top: 35px;
+            padding-left: 110px;
+            font-size: 50px;
+            font-weight:bolder;
+            color:#f9f8fc;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        }
+
+        .sml{
+           
+            font-size: 20px;
+            font-weight:bolder;
+            color:#ffffff;
+            font-family:Arial, Helvetica, sans-serif;
+
+        }
+
+        .n2{
+
+            margin-top: -95px;
+            padding-left: 300px;
+            font-size: 50px;
+            font-weight:bolder;
+            color:#f9f8fc;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxyge
+            
+        }
+
+        .n3{
+
+            margin-top: -95px;
+            padding-left: 500px;
+            font-size: 50px;
+            font-weight:bolder;
+            color:#f9f8fc;
+            font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxyge
+            
+        }
+
+        .imge{
+
+            padding-left: 700px;
+            margin-top: -470px;
+             
+        }
+
+        .main{
+
+            padding-top: 200px ;
+        }
+
+        .imge2{
+
+            padding-left: 700px;
+            margin-top: -400px;
+             
+        }
+
+        .next2{
+
+            margin-top: 100px;
+            padding: 100px;
+            background-color: #343337;
+
+        }
+
+        .three_img{
+
+            display: flex;
+            flex-direction: row;
+            gap: 30px;
+            margin-left: -70px;
+           
+        }
+
+         .img_first:hover{
+
+        transform: scale(1.1);
+        transition: 0.3s;
+
+        }
+
+        .img_second:hover{
+
+        transform: scale(1.1);
+        transition: 0.3s;
+
+        }
+
+        .img_third:hover{
+
+        transform: scale(1.1);
+        transition: 0.3s;
+
+        }
+        .three_write{
+
+            margin-top: -550px;
+            padding-left: 30px;
+            padding-top: 10px;
+            color: white;
+        }
+
+        .sml_f{
+
+            padding-left: 30px;
+            padding-top: 10px;
+            font-size: 20px;
+            color: #c6c6c7;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 700;
+        }
+
+        .three_third{
+
+            padding-top: 10px;
+           margin-left: -460px;
+           padding-top: 10px;
+           color: #ffffff;
+        }
+        .sml_l{
+
+             
+            padding-top: 10px;
+            font-size: 20px;
+            color: #c6c6c7;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 700;
+
+        }
+
+        .more-three{
+
+            padding: 120px;
+        }
+
+        .more-img{
+
+            display: flex;
+            gap: 30px;
+            position: relative;
+           
+        }
+
+        .tip{
+
+            background-color: #8364e2;
+            width: 160px;
+            height: 30px;
+            text-align: center;
+            border-radius: 5px;
+            margin-top: -290px;
+            margin-left: 20px;
+            position: absolute;
+            z-index: 1;
+           
+        }
+
+        .tip a{
+
+           
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 18px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-weight: 700;
+           
+        }
+
+        .fir-per{
+
+            margin-top: -110px;
+            margin-left: 120px;
+        }
+
+        .sec-per{
+
+            margin-top: -206px;
+            margin-left: 550px;
+        }
+
+        .thir-per{
+
+             margin-top: -207px;
+            margin-left: 980px;
+
+        }
+
+        .ler-btn{
+
+             border-color: #8364e2 ;
+            background-color: #8364e2;
+            color: #ffffff;
+            width: 140px;
+            height: 40px;
+            border-radius: 20px;
+            font-size: 15px;
+            font-weight: 800;
+
+        }
+
+        .ler-btn:hover{
+
+            background-color: #a38af0 ;
+            transition: all 0.3s ease-in-out;
+            
+        }
+
+        .whit{
+
+            padding: 150px;
+        }
+
+        .whit h1{
+
+            text-align: center;
+            font-size: 60px;
+        }
+
+        .whit p{
+
+            text-align: center;
+            font-size: 15px;
+        }
+
+        .bt{
+
+             border-color: #8364e2 ;
+            background-color: #8364e2;
+            color: #ffffff;
+            width: 140px;
+            height: 40px;
+            border-radius: 20px;
+            font-size: 15px;
+            font-weight: 800;
+            margin-left: 450px;
+            margin-top: 20px;
+
+        }
+
+        .bt:hover{
+
+            background-color: #a38af0 ;
+            transition: all 0.3s ease-in-out;
+            
+        }
+
+        .wt{
+
+             border-color: #f0eff3 ;
+            background-color: #f5f5f8;
+            color: #070707;
+            width: 140px;
+            height: 40px;
+            border-radius: 20px;
+            font-size: 15px;
+            font-weight: 800;
+            margin-left: 15px;
+            margin-top: 20px;
+
+
+        }
+
+        .wt:hover{
+
+            background-color: #e9e8eb ;
+            color: #8364e2;
+            border-color: #8364e2;
+            transition: all 0.3s ease-in-out;
+            
+        }
+
+       
+          
+        
+
+
+    </style>
+</head>
+<body>
+
+    <header>
+           <img src="/Image/background1.jpg" alt="background" width="100%" height="800px">
+
+            <div class="logo">
+                <a href="#">CryptoM5</a>
+            </div>
+
+            <div class="nav">
+                <a href="#">Home</a>
+                <a href="#">Live Demo</a>
+                <a href="#">Live Demo BLocks</a>
+                <a href="#"><button class="btn">Buy Now</button></a>
+            </div>
+
+          <p class="fir">CRYPTO PLATFORM</p>
+
+          <h1 class="pera">Create, hold or trade<br/>
+            cryptocurrency
+          </h1>
+
+          <p class="sec">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> Tempore aliquid asperiores impedit  </p>
+
+          <button class="exp">Explore</button>
+
+          <h1 class="n1">5346<p class="sml">Wallets</p></h1>
+
+          <h1 class="n2">2453<p class="sml">Clients</p></h1>
+
+          <h1 class="n3">425<p class="sml">Traders</p></h1>
+
+          <div class="imge">
+            <img src="/Image/features1.jpg" alt="img" width="700px" height="600px">
+
+          </div>
+
+
+
+    </header>
+
+
+    <div class="main">
+
+     <p class="fir">CRYPTO PLATFORM</p>
+
+          <h1 class="pera" style="color: black;">Create, hold or trade<br/>
+            cryptocurrency
+          </h1>
+
+          <p class="sec" style="color: #343337;">Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> Tempore aliquid asperiores impedit  </p>
+
+          <button class="exp">Explore</button>
+
+           <div class="imge2">
+            <img src="/Image/features2.jpg" alt="img" width="650px" height="500px">
+
+          </div>
+
+
+     </div>
+
+    
+
+      <div class="next2">
+
+
+        <div class="three_img">
+            <div class="img_first">
+                <img src="/Image/features1.jpg" alt="firs" width="460px" height="550px">
+                <h1 class="three_write" >Crypto Wallets </h1>
+                <p class="sml_f">
+                    Lorem ipsum dolor
+                </p>
+               
+
+            </div>
+
+            <div class="img_second">
+                <img src="/Image/features3.jpg" alt="firs" width="460px" height="550px">
+                <h1 class="three_write" >Margin Trade </h1>
+                <p class="sml_f">
+                    Lorem ipsum dolor
+                </p>
+            </div>
+
+            <div class="img_third">
+                <img src="/Image/features4.jpg" alt="firs" width="460px" height="550px">
+            </div>
+
+            <h1 class="three_third" >Crypto Processing
+            
+                <p class="sml_l">
+                    Lorem ipsum dolor
+                </p>
+                </h1>
+
+        </div>
+     </div>
+
+     <div class="more-three">
+
+        <div class="more-img">
+            <div class="f-img">
+                <img src="/Image/features1.jpg" alt="imahg" width="400px" height="300px">
+                <div class="tip">
+                   <a href="#" target="_blank">TIPS & TRICKS</a> 
+                </div>
+
+            </div>
+
+             <div class="s-img">
+                <img src="/Image/features2.jpg" alt="imahg" width="400px" height="300px">
+                 <div class="tip">
+                   <a href="#" target="_blank">TIPS & TRICKS </a> 
+                </div>
+            </div>
+
+             <div class="t-img">
+                <img src="/Image/features3.jpg" alt="imahg" width="400px" height="300px">
+                 <div class="tip">
+                   <a href="#" target="_blank">TIPS & TRICKS</a> 
+                </div>
+            </div>
+
+        </div>
+
+     </div>
+
+     <div class="in-pera">
+
+        <div class="fir-per">
+            
+            <p style="font-weight: 700;">OCTOBER 18, 2022</p><br/>
+            <h1>Crypto Wallets</h1><br/>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> Sint ad explicabo provident et laudantium vero sunt<br/> a quod soluta nam neque</p><br/>
+            <button class="ler-btn">Learn More</button>
+        </div>
+
+         <div class="sec-per">
+            
+            <p style="font-weight: 700;">OCTOBER 23, 2022</p><br/>
+            <h1>Margin Trade</h1><br/>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> Sint ad explicabo provident et laudantium vero sunt<br/> a quod soluta nam neque</p><br/>
+            <button class="ler-btn">Learn More</button>
+        </div>
+
+        
+         <div class="thir-per">
+            
+            <p style="font-weight: 700;">OCTOBER 28, 2022</p><br/>
+            <h1>Exchange</h1><br/>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br/> Sint ad explicabo provident et laudantium vero sunt<br/> a quod soluta nam neque</p><br/>
+            <button class="ler-btn">Learn More</button>
+        </div>
+
+
+     </div>
+
+     
+     <div class="whit">
+
+        <h1  style="color: black;">Create, hold or trade </h1>
+         <h1 style="color: black;"> cryptocurrencye </h1>
+         <br/>
+
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint officiis at suscipit, <br/>possimus doloremque ab quia recusandae</p><br/>
+
+         <button class="bt" >Explore</button>
+
+           <button class="wt" >Get Started</button>
+     </div>
+
+
+     
+
+           
+    
+</body>
+</html>
